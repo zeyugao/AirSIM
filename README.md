@@ -2,6 +2,8 @@
 
 [Apps v0.9.8.16 · Android 121 / iOS 145](docs/releases/0.9.8.16.md)：云端音频启动、弱网丢包隐藏与 240ms 自适应 jitter、CallKit/挂断、自检连接复用与 Relay 历史设备删除。推荐 Android 10–13 用户升级 Standalone；双 SIM、真实换卡和不同 OEM 双向音频仍需真机复验。TestFlight build 145 已上传并处理中；AVF Linux Agent v0.4.7 已单独发布。
 
+工作区未发布修复：APNs 与本地通话终态按认证身份收尾原 CallKit／PCM，补齐跨通道事件先后顺序与冷启动接管；保留过期事件隔离和本通传输锁定。[实现与验证边界](iOS/README.md#apns-来电的远端挂断未发布)。
+
 [![Android Standalone](https://img.shields.io/badge/Android-Standalone%20APK-3DDC84?logo=android&logoColor=white)](android-standalone/README.md)
 [![iOS](https://img.shields.io/badge/iOS-16.3%2B-000000?logo=apple&logoColor=white)](iOS/README.md)
 [![watchOS](https://img.shields.io/badge/watchOS-10%2B-000000?logo=apple&logoColor=white)](iOS/README.md)
